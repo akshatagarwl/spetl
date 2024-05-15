@@ -1,5 +1,5 @@
 {
-  description = "";
+  description = "spetl";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs";
   inputs.flake-utils.url = "github:numtide/flake-utils";
@@ -10,10 +10,9 @@
       in {
         devShells.default = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
-	    poetry
-	    nixpkgs-fmt
-	    unzip
+            poetry
           ];
+          LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib64:$LD_LIBRARY_PATH";
         };
       });
 }
