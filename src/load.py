@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def write_to_sqlite(df):
     sqlite_filename = "data/data.sqlite"
     conn = sqlite3.connect(sqlite_filename)

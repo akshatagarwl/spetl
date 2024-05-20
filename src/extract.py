@@ -52,9 +52,9 @@ def parse_html(file_path):
     soup = BeautifulSoup(content, "lxml")
 
     website = (
-        re.search(r"similarweb-(.+?)-", os.path.basename(file_path))
-        .group(1)
-        .replace("-", ".")
+        os.path.basename(file_path)
+        .removeprefix("similarweb-")
+        .removesuffix("-com.html")
     )
 
     data_dict = {

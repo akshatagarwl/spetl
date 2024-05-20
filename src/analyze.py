@@ -5,6 +5,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def plot_visits_month_on_month(df):
     df["percentage_visits_change_oct_nov"] = (
         (df["visits_october"] - df["visits_november"]) / df["visits_october"]

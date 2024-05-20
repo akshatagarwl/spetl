@@ -4,6 +4,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def clean(path):
     df = pd.read_csv(path)
 

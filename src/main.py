@@ -4,6 +4,7 @@ import analyze
 import load
 import logging
 
+
 def main():
     logging.basicConfig(level=logging.INFO)
     html_files = [

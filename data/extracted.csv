@@ -1,5 +1,5 @@
 website,global_rank,total_visits,bounce_rate,pages_per_visit,avg_visit_duration,visits_october,visits_november,visits_december,rank_october,rank_november,rank_december,top_countries,age_distribution_18-25,age_distribution_25-34,age_distribution_35-44,age_distribution_45-54,age_distribution_55-64,age_distribution_65+
-byte,"#7,277,936",< 5K,- -,- -,- -,,,,558508,1193524,768904,{},--,--,--,--,--,--
+byte-trading,"#7,277,936",< 5K,- -,- -,- -,,,,558508,1193524,768904,{},--,--,--,--,--,--
 crunchbase,"#7,435",9.1M,55.43%,2.99,00:02:26,10.5M,10.5M,9.1M,71,76,87,"{""United States"": ""39.80%"", ""India"": ""9.42%"", ""United Kingdom"": ""5.23%"", ""Canada"": ""3.26%"", ""Germany"": ""2.42%"", ""Others"": ""39.88%""}",20.52%,36.84%,20.96%,11.80%,6.37%,3.50%
 google,#1,86.4B,28.77%,8.29,00:10:35,87.0B,85.1B,86.4B,1,1,1,"{""United States"": ""27.04%"", ""India"": ""4.51%"", ""Brazil"": ""4.39%"", ""United Kingdom"": ""3.81%"", ""Japan"": ""3.70%"", ""Others"": ""56.56%""}",23.86%,30.32%,18.79%,12.75%,8.63%,5.64%
 pitchbook,"#18,054",2.5M,36.03%,7.52,00:04:08,2.8M,3.0M,2.5M,48,43,54,"{""United States"": ""48.83%"", ""India"": ""8.87%"", ""United Kingdom"": ""6.66%"", ""Canada"": ""3.48%"", ""Germany"": ""2.29%"", ""Others"": ""29.88%""}",19.45%,34.57%,21.40%,12.86%,7.43%,4.29%
